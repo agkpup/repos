@@ -1,0 +1,42 @@
+/* card.css */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: rotate(10deg);
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-text {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 90%;
+    }
+  }
+  
+  .card-container {
+    display: flex;
+    align-items: center; 
+  }
