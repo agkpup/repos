@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutUs from '../components/section/AboutUs';
 import CardSec from '../components/section/CardSec';
 // import { useSelector } from 'react-redux';
 // import { useDispatch } from 'react-redux';
@@ -16,6 +17,7 @@ const Home = () => {
       <CardSec/>
       <ServiceCardSec />
       <CustomersSection />
+      <AboutUs />
     </div>
   );
 }
