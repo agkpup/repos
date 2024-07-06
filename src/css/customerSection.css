@@ -33,6 +33,6 @@ background-image: url('background_text.jpeg');
   }
   
   .customer-logo:hover {
-    transform: scale(1.1);
+    transform: scale(1.75);
   }
   
